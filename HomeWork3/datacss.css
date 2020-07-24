@@ -1,0 +1,64 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #706f70;
+    height: 100px;
+}
+
+.header h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 40pt;
+    color: white;
+    padding-bottom: 10pt;
+    padding-top: 10pt;
+    margin: 0;
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+}
+
+.GetData {
+    margin-top: 25px;
+    margin-left: 25px;
+    color: white;
+}
+
+.Delete, .Edit, .GetData, .NewButtonAddItem, .NewButtonClear, .SaveChanges {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    border-color: black;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #525053;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+.Delete:hover, .divNewElement, .Edit:hover, .GetData:hover, .NewButtonAddItem:hover, .SaveChanges:hover, .NewButtonClear:hover {
+    cursor: pointer;
+    color: #17081d;
+    border-color: currentColor;
+    background-color: white;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Input:hover {
+    background-color: #c3c4c5;
+}
+
+.GetData:disabled {
+    cursor: default;
+    background-color: rgb(8, 1, 1);
+    color: white;
+    box-shadow: none;
+}
+
+.Input {
+    margin-left: 20px;
+}
